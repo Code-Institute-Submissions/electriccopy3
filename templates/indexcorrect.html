@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>UK Electric Consumption 1970-2015</title>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="static/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/keen-dashboards.css')}}">
+    <link rel="stylesheet" href="static/lib/css/keen-dashboards.css">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/dc.css')}}">
+    <link rel="stylesheet" href="static/lib/css/dc.css">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='css/custom.css')}}">
+    <link rel="stylesheet" href="static/css/custom.css">
+    <link rel="stylesheet" href="{{ url_for ('static',filename='lib/css/introjs.css') }}">
+
+</head>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+   <div class="container-fluid">
+       <div class="navbar-header">
+           <a class="navbar-brand" href="">UK Household Electric Consumption between 1970 - 2015</a>
+       </div>
+   </div>
+</div>
+
+<article id="opening1">
+    <strong>
+    We in the UK utilize electricity as an everyday necessity . . .
+    <br>
+    But do we know where it is most used within our households
+    </strong>
+</article>
+
+<br>
+
+<article id="opening2">
+    The following shows on average where the electricity is consumed within the average UK household.
+    <br><br>
+    We may be on different tarifs but you should be aware of where the highest consumption takes place. The charts show consumption not cost because people will be on differing tarifs with different energy companies and may possibly have solar panels to produce their own electricity.
+    <br><br>
+    The charts display the electricity used in households across the UK.
+    <br><br>
+    Please see the section at the bottom for details of where the data for the charts was obtained.
+    <br><br>
+    With changes in technology ie. energy saving bulbs and LEDs etc what was a high consuming area may now not be so high.
+    <br><br>
+    The charts below show changes over 45 years.
+    <br><br>
+    Previously there were no computers, microwaves and game consoles in the 1970's. Now in 2015 these exist, but also so do energy saving devices.
+</article>
+
+<br>
+
+         <!-- Electricity Consumed Chart -->
+          <div class="col-sm-12">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                  <article id="chartheadings">
+                       Total Electricity Consumed over the 1970 - 2015 period
+                  </article>
+              </div>
+              <div class="chart-stage" data-step="1" data-intro="An overall graph from 1970-2015 showing UK average household consumption across the period" style="font-weight: normal" data-position="center">
+                <div id="electric_consumed-bar-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Electric Consumed Chart -->
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<article id="opening3">
+    To see what was consumed during a particular year or over a number of years drag and highlight the period on the above chart
+</article>
+
+<br>
+
+         <!-- Units of electricity consumed -->
+       <div class="col-sm-6">
+           <div class="chart-wrapper">
+               <div class="chart-title">
+                    <article id="chartheadings">
+                           Electricity Consumed for the Selected Year or Years as a number
+                    </article>
+               </div>
+               <div class="chart-stage" data-step="2" data-intro="The number of units used during the period highlighted" style="font-weight: normal" data-position="center">
+                   <div id="oil_equivalent-nd"></div>
+               </div>
+           </div>
+       </div>
+         <!-- Units of electricity consumed -->
+
+         <!-- Units of electricity consumed pie -->
+               <div class="col-sm-6">
+                   <div class="chart-wrapper">
+                       <div class="chart-title">
+                            <article id="chartheadings">
+                                Selected Year or Years
+                            </article>
+                       </div>
+                       <div class="chart-stage" data-step="3" data-intro="Pie chart showing number of units used during the period highlighted" style="font-weight: normal" data-position="center">
+                           <div id="major_areas2-pie-chart"></div>
+                       </div>
+                   </div>
+               </div>
+         <!-- Units of electricity consumed pie-->
+
+<br><br><br><br>
+
+<article id="opening4">
+    The chart below highlights the main areas of consumption within a home and has been grouped into the major areas. See the chart explanation below for more detailed explanation of the legend.
+</article>
+
+<br>
+
+          <!-- Major Area Totals -->
+          <div class="col-sm-12">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                   <article id="chartheadings">
+                        Major Areas to Selected Year
+                   </article>
+              </div>
+              <div class="chart-stage" data-step="4" data-intro="Showing major areas of consumption, Cooking refers to all cooking utilises, Lighting to all different kinds of lighting, Cold refers to freezers and refrigeration, Wet to washing machines, dryers, dishwashers etc. Electronics is tvs and any related equipment, Computing for computers, laptops, monitors etc." style="font-weight: normal" data-position="center">
+                <div id="major_areas-composite-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Major Area Total -->
+
+      <br><br><br><br>
+
+<article id="opening5">
+    As technology moves on new means of using electricity comes on the market and although small makes an impact although small to start with.
+     <br><br>
+    As these take affect changes occur in electric usage, the LED chart below highlights the major start of real energy saving in lighting.
+</article>
+
+      <br><br>
+          <!-- LED -->
+          <div class="col-sm-12">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                   <article id="chartheadings">
+                        LEDs
+                   </article>
+              </div>
+              <div class="chart-stage" data-step="5" data-intro="Solely for LED lighting only" style="font-weight: normal" data-position="center">
+                <div id="led-bar-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- LED -->
+
+<article id="opening6">
+    The following 4 charts show a rise of usage, new products rise and fall.
+    <br><br>
+    TVs no longer use the cathode ray tube to produce the picture, now they are more energy efficient.
+    <br>
+    This does not imply sales have stagnated with the new energy saving TVs.
+    <br><br>
+    These may show how trends change over time but it should be noted that a fall may be due to more efficient devices arriving on the market
+    <br><br>
+    However the use of the internet may have dealt a blow to the DVDs and VCRs.
+</article>
+
+          <!-- tv Totals -->
+          <div class="col-sm-3">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                   <article id="chartheadings">
+                        TVs
+                   </article>
+              </div>
+              <div class="chart-stage" data-step="6" data-intro="Only TV sets" style="font-weight: normal" data-position="right">
+                <div id="tv-row-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- tv Totals -->
+
+          <!-- set_top_box Totals -->
+          <div class="col-sm-3">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                   <article id="chartheadings">
+                        Set Top Boxes
+                   </article>
+              </div>
+              <div class="chart-stage" data-step="7" data-intro="Tv set Top Boxes" style="font-weight: normal" data-position="right">
+                <div id="set_top_box-row-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- set_top_box Totals -->
+
+          <!-- dvd_vcr Totals -->
+          <div class="col-sm-3">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                   <article id="chartheadings">
+                        DVDs & VCRs
+                   </article>
+              </div>
+              <div class="chart-stage" data-step="8" data-intro="DVDs and VCRs" style="font-weight: normal" data-position="left">
+                <div id="dvd_vcr-row-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- dvd_vcr Totals -->
+
+          <!-- games Totals -->
+          <div class="col-sm-3">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                   <article id="chartheadings">
+                        Games
+                   </article>
+              </div>
+              <div class="chart-stage" data-step="9" data-intro="Electronic game machines" style="font-weight: normal" data-position="left">
+                <div id="games-row-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- games Totals -->
+
+    <button class="intro_button" type="button"  autofocus onclick="javascript:introJs().start();">Further explanation of the Charts click . . .</button>
+
+<br><br><br>
+
+<article id="closing">
+    <strong>
+    Where has the charts and data for the charts come from?
+    </strong>
+    <br><br>
+    The data used to create the charts came from the UK government website. Taken from one sheet from a very large Excel spreadsheet.
+    <br><br>
+    The web site it was taken from was <a href="https://www.gov.uk/government/collections/energy-consumption-in-the-uk" target="_blank">www.gov.uk</a> with the title Gov.UK
+    <br>
+    <ul>
+    In the Contents section choose Statistics
+    <br>
+    Headed National Statistics Energy consumption in the UK
+    <br>
+    Under documents choose Energy Consumption in the UK (ECUK) 2017 Data Tables
+    <br>
+    Select the spreadsheet was ECUK_Tables_2017.xlsx Sheet reference 3.08
+    <br>
+    The table within the spreadsheet was Table 3.08 Total electricity consumption by household domestic appliances 1970 to 2015
+    <br><br>
+    <strong>
+    Source
+    </strong>
+    <br><br>
+    Market Transformation Programme and analysis by Cambridge Architectural Research Ltd
+    </ul>
+    <br><br>
+    <i>
+    The only modification to the data has been to enable it to be read to produce the charts.
+    </i>
+    <br><br>
+    <strong>
+    Software used on the project
+    </strong>
+    <br><br>
+    <ul>
+    Crossfilter<br>
+    DC<br>
+    D3<br>
+    MongoDB a database used to hold the data in a csv file format<br>
+    Flask
+    </ul>
+</article>
+
+<br><br>
+
+<hr>
+<a>
+<p class="small text-muted"> Data viz from UK Government & Cambridge Architectural Research Ltd
+</a>
+
+<script src="static/lib/js/jquery.min.js"></script>
+<script src="static/lib/js/bootstrap.min.js"></script>
+<script src="static/lib/js/crossfilter.js"></script>
+<script src="static/lib/js/d3.js"></script>
+<script src="static/lib/js/dc.js"></script>
+<script src="static/lib/js/queue.js"></script>
+<script src="static/lib/js/keen.min.js"></script>
+<script src="static/js/graph.js"></script>
+<script src="static/lib/js/intro.js"></script>
+
+</html>

@@ -1,0 +1,240 @@
+/***************
+TEXT
+****************/
+
+#opening1 {
+	font-family: Helvetica, Arial, SansSerif;
+	font-size: 48px;
+	color: black;
+	margin-right: 100px;
+	margin-left: 100px;
+    margin-top: 100px;
+}
+
+#opening2 {
+	font-family: Helvetica, Arial, SansSerif;
+	font-size: 24px;
+	color: black;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#opening3 {
+	font-family: Helvetica, Arial, SansSerif;
+	font-size: 24px;
+	color: black;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#opening4 {
+	font-family: Helvetica, Arial, SansSerif;
+	font-size: 24px;
+	color: black;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#opening5 {
+	font-family: Helvetica, Arial, SansSerif;
+	font-size: 24px;
+	color: black;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#opening6 {
+	font-family: Helvetica, Arial, SansSerif;
+	font-size: 24px;
+	color: black;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#closing {
+	font-family: Helvetica, Arial, SansSerif;
+	font-size: 24px;
+	color: black;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.intro_button {
+    margin-left: 30px;
+    position: relative;
+    background-color: #0000FF;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 400px;
+    text-align: left;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+p {
+    text-indent: 50px;
+}
+
+
+/***************
+IMAGES
+****************/
+
+html, body {
+    height: 0%;
+    width: 100%;
+}
+
+html {
+     background-image: url("/static/images/pylonsmore4.jpg");
+}
+
+
+/***************
+CHARTS
+   background: #33CC99;
+****************/
+
+#chartheadings {
+   font-family: Helvetica, Arial, SansSerif;
+   color: slategrey;
+   font-weight: bold;
+   indent-edge-reset: 75px;
+}
+
+#electric_consumed-bar-chart {
+   background: #00ffff;
+   width: 100%;
+   border: 10px;
+   position: relative;
+   height: 400px;
+   font-size: 15px;
+   color: white;
+   vertical-align: middle;
+   text-align: center;
+   padding-top: 4px;
+   padding-bottom: 0px;
+   padding-left: 10px;
+}
+
+#oil_equivalent-nd {
+    background: #00ffff;
+    width: 100%;
+    border: 10px;
+    position: relative;
+    height: 140px;
+    font-size: 80px;
+    color: black;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
+#major_areas2-pie-chart {
+    background: #00ffff;
+    width: 100%;
+    border: 10px;
+    position: relative;
+    height: 425px;
+    font-size: 15px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
+#major_areas-composite-chart {
+    background: #00ffff;
+    width: 100%;
+    border: 0px;
+    position: relative;
+    height: 400px;
+    font-size: 15px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+#led-bar-chart {
+    background: #00ffff;
+    width: 100%;
+    border: 10px;
+    position: relative;
+    height: 400px;
+    font-size: 15px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+#tv-row-chart {
+    background: #33CC99;
+    width: 110%;
+    border: 10px;
+    position: relative;
+    height: 780px;
+    font-size: 15px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
+#set_top_box-row-chart {
+    background: #33CC99;
+    width: 110%;
+    border: 10px;
+    position: relative;
+    height: 780px;
+    font-size: 15px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
+#dvd_vcr-row-chart {
+    background: #33CC99;
+    width: 110%;
+    border: 10px;
+    position: relative;
+    height: 780px;
+    font-size: 15px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
+#games-row-chart {
+    background: #33CC99;
+    width: 110%;
+    border: 10px;
+    position: relative;
+    height: 780px;
+    font-size: 15px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
