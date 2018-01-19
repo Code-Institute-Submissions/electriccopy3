@@ -1,1 +1,5 @@
 gunicorn==19.7.1
+pip==9.0.1
+setuptools==38.2.4
+wheel==0.30.0
+wsgiref==0.1.2
