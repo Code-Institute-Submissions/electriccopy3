@@ -1,5 +1,5 @@
 Django
-django-forms-bootstrap.min.js
+django-forms-bootstrap==3.2.0
 beautifulsoup4
 django-paypal
 pbr
