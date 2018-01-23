@@ -10,7 +10,7 @@ READ ME
 
 5.   Using D3.js
 
-6    Uses Dc.js
+6.    Uses Dc.js
 
 7.   Uses Crossfilter.js
 
