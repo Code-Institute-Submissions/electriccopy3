@@ -1,1 +1,1 @@
-web: gunicorn electriccopy3:app
+web: gunicorn eleccom:app

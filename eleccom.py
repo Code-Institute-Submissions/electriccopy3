@@ -28,28 +28,12 @@ def eleccom_projects():
 
     # A constant that defines the record fields that we wish to retrieve.
 
-
-
-
-
     FIELDS = {
        '_id': False,
        'date': True,
-       #'light_bulb': True,
-       #'halogen': True,
-       #'fluorscent_strip_lighting': True,
-       #'energy_light': True,
        'led': True,
        'lighting_total': True,
-       #'chest': True,
-       #'fridge': True,
-       #'refridgerator': True,
-       #'upright_freezer': True,
        'cold_total': True,
-       #'washing_machine': True,
-       #'washer-dryer': True,
-       #'dishwasher': True,
-       #'tumble_dryer': True,
        'wet_total': True,
        'tv': True,
        'set_top_box': True,
@@ -57,16 +41,7 @@ def eleccom_projects():
        'games': True,
        'power_units': True,
        'electronics_total': True,
-       #'desktops': True,
-       #'laptops': True,
-       #'monitors': True,
-       #'printers': True,
-       #'multi_function': True,
        'computing_total': True,
-       #'oven': True,
-       #'hob': True,
-       #'microwave': True,
-       #'kettle': True,
        'cooking_total': True,
        'oil_equivalent': True,
        'electric_consumed': True,
