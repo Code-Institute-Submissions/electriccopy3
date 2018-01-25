@@ -1,25 +1,22 @@
-import os
-#from flask import Flask
-#from flask import render_template
+from flask import Flask
+from flask import render_template
 from pymongo import MongoClient
 import json
 
+app = Flask(__name__)
 
-#app = Flask(__name__)
-
-MONGODB_HOST = 'ds113738.mlab.com'
-MONGODB_PORT = 13738
-DBS_NAME = os.getenv('projects', 'electriccopy3')
+MONGODB_HOST = 'localhost'
+MONGODB_PORT = 27017
+DBS_NAME = 'electric'
 COLLECTION_NAME = 'projects'
-MONGO_URI = os.getenv('mongodb://root:Fullstack201^@ds113738.mlab.com:13738/heroku_bbvv1p32', 'mongodb://localhost:27017')
 
 
-#@app.route("/")
-#def index():
+@app.route("/")
+def index():
     """
     A Flask view to serve the main dashboard page.
     """
-#    return render_template("index.html")
+    return render_template("index.html")
 
 
 @app.route("/electric/projects")
@@ -30,6 +27,7 @@ def eleccom_projects():
     """
 
     # A constant that defines the record fields that we wish to retrieve.
+
 
     FIELDS = {
        '_id': False,
